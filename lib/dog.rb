@@ -14,7 +14,7 @@ class Dog
   
   def self.print_all
     @@all.each do |dog_name|
-      print dog_name.name + "/n"
+      print dog_name.name + "\n"
     end
   end 
   
